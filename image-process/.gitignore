@@ -1,0 +1,19 @@
+# Compiled binary and dependencies
+/target/
+**/*.rs.bk
+target
+# Generated files from cargo
+Cargo.lock
+**/Cargo.lock
+
+# Generated WebAssembly files
+**/pkg/
+.vscode/*
+.vscode/settings.json
+# Node modules
+/node_modules/
+
+# Build directories
+/dist/
+/build/
+/www/build
